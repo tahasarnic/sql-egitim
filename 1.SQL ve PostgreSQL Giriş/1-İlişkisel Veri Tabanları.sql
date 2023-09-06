@@ -61,4 +61,79 @@ Tavsiye edilen kurslar:
 * https://www.coursera.org/professional-certificates/ibm-data-engineer
 * https://www.datacamp.com/data-courses/data-engineering-courses
 */
+
+/*markdown
+# Nedir Bu Veri Tabanları?
+*/
+
+/*markdown
+Excel dosyaları ile çalışabilecekken neden verileri veri tabanlarında depoluyoruz?
+*/
+
+/*markdown
+<img src="../imgs/35.sql-vs-excel.png">
+*/
+
+/*markdown
+Verileri depolamada ve yönetmede en etkili yöntemin veri tabanları olduğunu yukarıdaki resimde görebiliyoruz. Diğer taraftan Excel ise küçük ve ilişkisel olmayan veri setlerinde veri analitiği yapmak için oldukça güçlü araçlardan biridir.
+
+Peki veri tabanları oluşturmak için hangi aracı kullanmalıyız?
+*/
+
+/*markdown
+<img src="../imgs/36.rdbms.png">
+*/
+
+/*markdown
+Yukarıdaki görselde belirtilen popüler veri tabanı yönetim sistemleri haricinde birçok farklı veri tabanı yönetim sistemi mevcuttur. Fakat hepsinin temel amacı verilerin depolanması ve yönetilmesi olarak aynıdır. Aynı zamanda hepsi ortak bir sorgulama dili olan SQL kullanır. Sorgulama dilinde çok küçük farklılıklar olsa da, temel sentaks yapısı (kod yapısı) ve çalışma mantığı aynıdır.
+
+Hangi RDBMS kullanmamız gerektiği ise:
+
+* Açık kaynak/ücretli
+* Geliştirilen uygulama/web sitesi ile optimize çalışma 
+* İşletim sistemi
+* Donanım
+* Kişisel tercih
+
+gibi birçok farklı faktöre dayanmaktadır. Detaylı bilgi için 👇🏻
+* https://www.g2.com/categories/relational-databases
+* https://www.integrate.io/blog/which-database/
+
+
+Bu eğitim kapsamında ise en popüler **açık kaynak ilişkisel veri tabanı yönetim sistemlerinden** biri olan **PostgreSQL** kullanacağız.
+*/
+
+/*markdown
+# Elimde Çok Büyük Bir Veri Var Ne Yapmalıyım?
+*/
+
+/*markdown
+Bir önceki görselde veri tabanlarının, aynı anda birden fazla kullanıcının verilere erişebilmesini desteklediğinden bahsetmiştik. Bu durumda veri tabanının kurulu olduğu bilgisayarın (makinenin) başka kullanıcılar için de bir sunucu (server) görevi görebildiğini söyleyebiliriz. Böylece depolanacak veri boyutunun ve sorguların dönme hızının ilgili veri tabanının kurulu olduğu makineye bağlı olduğunu da söyleyebiliriz.
+
+Eğer büyük verilerle çalışıyorsak ve çalıştığımız bilgisayarın donanımsal kapasitesi verilerin depolanmasına yetmiyorsa ve sorgular yavaş çalışıyorsa, bir makine kiralamayı deneyebiliriz. Peki bu makineyi nereden mi kiralayacağız? Bulut-tabanlı teknolojiler bu konuda bizlere destek olabilir. Popüler bazı bulut-tabanlı ilişkisel veri tabanı yönetim sistemleri 👇🏻
+*/
+
+/*markdown
+<img src="../imgs/37.cloud.png">
+*/
+
+/*markdown
+Büyük verilerin işlenmesi, depolanması ve yönetilmesi ise **"Büyük Veri Mühendisliği"** alanına girmektedir. 
+
+Tavsiye edilen kurslar:
+
+* https://www.coursera.org/specializations/big-data
+* https://www.coursera.org/specializations/gcp-data-machine-learning#courses
+*/
+
+/*markdown
+***
+*/
+
+/*markdown
+<img src="../imgs/34.relational-ozet.png">
+*/
+
+/*markdown
+Veri tabanları oluşturma, veri tabanları içerisinde yapılandırılmış tablolar saklama ve bu tablolarda sorgulamalar yapabilmemizi sağlayacak dil olan SQL (Structured Query Language) ile devam edelim 🚀
 */
